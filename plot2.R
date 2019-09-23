@@ -27,7 +27,6 @@ df <- filter(df, Date >= "2007-02-01", Date <= "2007-02-02" )
 png("plot2.png", width=480, height=480)
 with(df, 
      plot(x=1:2880, y=Global_active_power,
-          main = "Global Active Power",
           xlab="",
           ylab="Global Active Power (Kilowatts)",
           xaxt ="n",
